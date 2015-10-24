@@ -69,6 +69,7 @@
 #Main>.box>.header {
     border: None;
     padding: 30px 20px 0px 20px;
+    overflow: none;
 }
 
 #Main>.box>.header>.fr {
@@ -222,13 +223,13 @@
 }
 
 #Rightbar div:nth-child(2) .cell:first-child table:nth-child(1) tr td:nth-child(1) img.avatar {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    height: 80px ;
-    max-height: 80px ;
-    max-width: 80px ;
-    width: 80px ;
+    -moz-border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    border-radius: 50% !important;
+    height: 80px !important;
+    max-height: 80px !important;
+    max-width: 80px !important;
+    width: 80px !important;
 }
 
 #Rightbar:hover div.box {
