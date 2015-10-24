@@ -198,11 +198,11 @@
 }
 
 #Main>div:nth-child(2)>div:nth-child(2)[style='background-color: #f9f9f9; padding: 10px 10px 10px 20px;'] {
-    background: #fff ;
-    border-bottom: 3px solid #eee;
-    border-radius: 0px;
-    margin: 0px;
-    padding: 10px 20px 22px 20px ;
+    background: #fff !important;
+    border-bottom: 3px solid #eee !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    padding: 10px 20px 22px 20px !important;
 }
 
 #Main>div:nth-child(2)>div:nth-child(2)[style='background-color: #f9f9f9; padding: 10px 10px 10px 20px;']>a {
@@ -318,7 +318,7 @@
 }
 
 #Rightbar>div:nth-child(2)>div:nth-child(3) {
-    padding: 35px 0 ;
+    padding: 35px 0 !important;
 }
 
 #Rightbar>div>div>table>tbody>tr>td[width='48']>a>img {
